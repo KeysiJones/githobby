@@ -37,7 +37,7 @@ function App() {
       <div className="text-center my-10">
         <p className="text-xl text-white">Projetos Desenvolvidos</p>
       </div>
-      <div className="text-white border-2 border-gray-400 p-4 rounded-xl w-9/12 text-center mx-auto mt-12 grid">
+      <div className="justify-items-center text-white border-2 border-gray-400 p-4 rounded-xl w-9/12 text-center mx-auto mt-12 grid">
         <p className="text-xl">Instituto Helper</p>
         <p className="mt-2 text-md">
           Instituto Helper é um site desenvolvido em Flutter para facilitar o
@@ -54,7 +54,7 @@ function App() {
           />
         </a>
       </div>
-      <div className="text-white border-2 border-gray-400 p-4 rounded-xl w-9/12 text-center mx-auto mt-12 grid">
+      <div className="justify-items-center text-white border-2 border-gray-400 p-4 rounded-xl w-9/12 text-center mx-auto mt-12 grid">
         <p className="text-xl">English4Developers</p>
         <p className="mt-2 text-md">
           Site criado para divulgar um curso de Inglês voltado para
@@ -62,7 +62,7 @@ function App() {
           celulares.
         </p>
         <br />
-        <a href="https://instituto-helper.netlify.app/">
+        <a href="https://english4developers.vercel.app/">
           <img
             className="rounded-lg"
             alt=""
@@ -70,13 +70,13 @@ function App() {
           />
         </a>
       </div>
-      <div className="text-white border-2 border-gray-400 p-4 rounded-xl w-9/12 text-center mx-auto mt-12 grid">
+      <div className="justify-items-center text-white border-2 border-gray-400 p-4 rounded-xl w-9/12 text-center mx-auto mt-12 grid">
         <p className="text-xl">Keysi Jones's Blog</p>
         <p className="mt-2 text-md">
           Blog pessoal para registrar conhecimento e histórias da minha vida.
         </p>
         <br />
-        <a href="https://instituto-helper.netlify.app/">
+        <a href="https://keysijones-blog.vercel.app/">
           <img
             className="rounded-lg"
             alt=""
