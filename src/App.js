@@ -28,12 +28,12 @@ function App() {
             src="https://avatars.githubusercontent.com/u/55116367?v=4"
           />
         </a>
-        <p className="text-white text-2xl mt-2">Keysi Jones</p>
+        <p className="text-white text-3xl mt-2">Keysi Jones</p>
         <p className="text-white text-xl mt-2">Porto Alegre, Brasil</p>
         <p className="text-white text-sm mt-2">*No GitHub desde 10/09/2019</p>
       </div>
-      <div className="text-center my-10">
-        <p className="text-xl text-white">Sobre mim</p>
+      <div className="text-center text-white text-2xl my-10">
+        <p>Sobre mim</p>
       </div>
       <div className="text-white border-gray-400 rounded-xl w-9/12 text-center mx-auto grid">
         {/* <p className="text-xl">Sobre mim</p> */}
@@ -46,8 +46,8 @@ function App() {
           </a>
         </p>
       </div>
-      <div className="text-center my-10">
-        <p className="text-xl text-white">Projetos Desenvolvidos</p>
+      <div className="text-center text-white text-2xl my-10">
+        <p>Projetos desenvolvidos</p>
       </div>
       <div className="justify-items-center text-white border-2 border-gray-400 p-4 rounded-xl w-9/12 text-center mx-auto mt-12 grid">
         <p className="text-xl">Instituto Helper</p>
