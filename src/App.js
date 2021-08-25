@@ -1,12 +1,24 @@
 import "./App.css";
+import { library } from "@fortawesome/fontawesome-svg-core";
+import {
+  fab,
+  faLinkedin,
+  faFacebook,
+  faGithub,
+  faWhatsapp,
+} from "@fortawesome/free-brands-svg-icons";
+import { faCheckSquare, faCoffee } from "@fortawesome/free-solid-svg-icons";
 // import axios from "axios";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
+library.add(fab, faLinkedin, faCheckSquare, faCoffee);
 
 function App() {
   // axios
   //   .get("https://api.github.com/users/KeysiJones")
   //   .then((res) => console.log(res));
   return (
-    <div className="bg-gray-700 h-full p-6">
+    <div className="bg-gray-700 h-full pt-8">
       <div className="items-center flex flex-col text-center">
         <a href="https://github.com/keysijones">
           <img
@@ -82,6 +94,23 @@ function App() {
             alt=""
             src="https://keysijones-portfolio.vercel.app/static/media/blog.b66fce36.png"
           />
+        </a>
+      </div>
+      <div className="text-center text-white text-2xl mt-12">
+        <p>Contato</p>
+      </div>
+      <div className="border-2 bg-white p-4 mt-12 w-full text-center flex justify-around">
+        <a href="https://www.github.com/keysijones">
+          <FontAwesomeIcon icon={faGithub} size="2x" />
+        </a>
+        <a href="https://www.linkedin.com/in/keysijones">
+          <FontAwesomeIcon icon={faLinkedin} size="2x" />
+        </a>
+        <a href="https://www.facebook.com/jonessud/">
+          <FontAwesomeIcon icon={faFacebook} size="2x" />
+        </a>
+        <a href="https://wa.me/5551985236176/?text=Oie">
+          <FontAwesomeIcon icon={faWhatsapp} size="2x" />
         </a>
       </div>
     </div>
