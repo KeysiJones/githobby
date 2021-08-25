@@ -18,7 +18,7 @@ function App() {
   //   .get("https://api.github.com/users/KeysiJones")
   //   .then((res) => console.log(res));
   return (
-    <div className="bg-gray-700 h-full pt-8">
+    <div className="bg-gray-700 h-full pt-8 pb-8">
       <div className="items-center flex flex-col text-center">
         <a href="https://github.com/keysijones">
           <img
@@ -97,9 +97,9 @@ function App() {
         </a>
       </div>
       <div className="text-center text-white text-2xl mt-12">
-        <p>Contato</p>
+        <p>Fale comigo</p>
       </div>
-      <div className="border-2 bg-white p-4 mt-12 w-full text-center flex justify-around">
+      <div className="border-2 bg-white border-white p-2 mt-12 text-center flex justify-around rounded-full mx-4">
         <a href="https://www.github.com/keysijones">
           <FontAwesomeIcon icon={faGithub} size="2x" />
         </a>
